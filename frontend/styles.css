@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f8ff; /* Um tom mais suave de fundo */
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px; /* Aumentei o padding para mais espaço interno */
+    border-radius: 15px; /* Aumentei o border-radius para cantos mais arredondados */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra mais suave e pronunciada */
+    text-align: center;
+    width: 90%; /* Largura mais responsiva */
+    max-width: 400px; /* Largura máxima para não esticar demais em telas grandes */
+}
+
+h1 {
+    color: #2c3e50; /* Tom de azul mais escuro */
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralizar os itens dentro do grupo */
+    width: 100%;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #34495e; /* Tom de azul mais escuro */
+    align-self: flex-start; /* Alinhar o label à esquerda */
+}
+
+input[type="text"] {
+    width: calc(100% - 20px); /* Considerar o padding */
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px; /* Bordas mais arredondadas para o input */
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px; /* Adicionei um pouco de margem abaixo */
+}
+
+button {
+    background-color: #3498db; /* Tom de azul mais vivo */
+    color: #fff;
+    border: none;
+    padding: 14px 24px; /* Aumentei um pouco o padding */
+    border-radius: 10px; /* Bordas mais arredondadas para o botão */
+    cursor: pointer;
+    font-size: 18px; /* Fonte um pouco maior */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9; /* Tom de azul mais escuro no hover */
+}
+
+.qrcode-container {
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Bordas mais arredondadas para o container da imagem */
+    padding: 10px;
+    background-color: #fff; /* Adicionei um fundo branco para destacar */
+}
+
+.qrcode-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordas levemente arredondadas para a imagem */
+}

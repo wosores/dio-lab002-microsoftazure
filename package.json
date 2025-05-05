@@ -1,0 +1,28 @@
+{
+  "name": "dio-lab002-microsoftazure",
+  "version": "1.0.0",
+  "description": "Site gerador de qrcode para docker no azure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wosores/dio-lab002-microsoftazure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wosores/dio-lab002-microsoftazure/issues"
+  },
+  "homepage": "https://github.com/wosores/dio-lab002-microsoftazure#readme",
+  "dependencies": {
+    "@azure/storage-blob": "^12.27.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mssql": "^11.0.1",
+    "multer": "^1.4.5-lts.2",
+    "qrcode": "^1.5.4"
+  }
+}
